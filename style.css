@@ -1,29 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-/* links
-
-Body font: Source Sans Pro
-Header font: Abril Fatface
-Article title font: Roboto Slab
-
-*/
+/* links */
 li{
     display: inline-block;
-    padding: 15px;
     list-style-type: none;
+    margin: 0 5px;
 }
 
 a{
     color: #777;
     text-decoration: none;
-    font-size: 1em;
 }
+
 ul {
+    padding-left: 0px;
+    padding: 5px 0px;
     border-top: solid #777;
     border-bottom: solid #777;
     border-width: thin ;
     text-align: center;
-    font-family: Source Sans Pro;
 }
 
 /* title */
@@ -31,33 +26,27 @@ ul {
 h1{
     font-family: 'Abril Fatface';
     text-align: center;
-    font-size: 4em;
+    font-size: 50px;
 }
 
-header div{
-    font-family: Source Sans Pro;
-}
 
 .boximg {
-    width: 95%; /* takes the 100 % width of its container (.box div)*/
+    width: 100%; /* takes the 100 % width of its container (.box div)*/
     height: 100%; /* takes the 100 % height of its container (.box div)*/
-    padding-right: 30px;
-    padding-left: 30px;
   }
 
   p{
-    font-family: Source Sans Pro;
     font-weight: lighter;
-    font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 16px;
   }
 
 
-section{
+/*section{
+        background-color: white;
         float: left;
         width: 45%;
-        padding: 5px;
       }
 
 h4{
@@ -67,25 +56,35 @@ h4{
     font-size: 30px;
 }
 
-section p{
-    padding-left: 55px;
-    padding-right: 55px;
-}
-
 section img{
 display: inline-block;
   margin-left: 50px;
   margin-right: 50px;
   width: 90%;
-}
+} */
 
 h5{
     color: red;
-    font-family: Abril Fatface;
-    font-size: 25px;
+    font-family: roboto slab;
+    font-size: 20px;
 }
 
 h2{
-    font-family: Abril Fatface;
-    font-size: 40px;
+    font-family: roboto slab;
+    font-size: 25px;
 }
+
+body{
+    background-color: #eee;
+    font-family: source sans pro;
+    
+}
+
+.newspaper-container{
+    width: 700px;
+    background-color: white;
+    border-radius: 15px;
+    padding:15px;
+    margin: 30px auto;
+    box-shadow: 1px 1px 10px #ddd;
+} 
