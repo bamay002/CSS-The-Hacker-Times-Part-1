@@ -27,56 +27,36 @@ h1{
     font-family: 'Abril Fatface';
     text-align: center;
     font-size: 50px;
+    color: black;
 }
 
 
 .boximg {
+    padding-top: 20px;
     width: 100%; /* takes the 100 % width of its container (.box div)*/
     height: 100%; /* takes the 100 % height of its container (.box div)*/
   }
 
-  p{
-    font-weight: lighter;
-    font-size: 15px;
-    text-align: justify;
-    padding: 0px 16px;
-  }
-
-
-/*section{
-        background-color: white;
-        float: left;
-        width: 45%;
-      }
-
-h4{
-    padding-left: 55px;
-    padding-right: 55px;
-    font-family: Roboto Slab;
-    font-size: 30px;
-}
-
-section img{
-display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
-  width: 90%;
-} */
 
 h5{
-    color: red;
-    font-family: roboto slab;
-    font-size: 20px;
+    color: rgb(188, 3, 3);
+    font-family: Abril Fatface;
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 5px;
 }
 
 h2{
     font-family: roboto slab;
     font-size: 25px;
+    color: black;
+    margin: 5px;
 }
 
 body{
     background-color: #eee;
     font-family: source sans pro;
+    color: #777;
     
 }
 
@@ -88,3 +68,34 @@ body{
     margin: 30px auto;
     box-shadow: 1px 1px 10px #ddd;
 } 
+
+p{
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0px 15px;
+  }
+
+.more-articles{
+    display: flex;
+}
+
+h4{
+    padding: 0px 20px;
+    color: black;
+}
+
+section img{
+   padding: 0px 20px;
+    width: 90%;
+}
+
+section p{
+    padding: 0px 20px;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
